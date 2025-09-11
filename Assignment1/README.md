@@ -1,6 +1,13 @@
-# Assignment 1
- The code and answers to each exercise are written in [CodeAssignment1.ipynb](CodeAssignment1.ipynb). To run the code, open the file and just run every cell starting from the top. 
- 
- The objective of this assigment was to learn more about metabolic modeling in COBRApy. 
- 
- Exercises 1, 2 and 3 were made by Evi Levels, i6368803.
+ # Assignment 1
+
+## Code
+All solutions and code for this assignment are in **[CodeAssignment1.ipynb](CodeAssignment1.ipynb)**.  
+To run the notebook:
+1. Open the file in Jupyter Notebook.  
+2. Run all cells in order, starting from the top.  
+
+## Objective
+The goal of this assignment was to get more experience with **metabolic modeling using COBRApy** and deepen our understanding of its applications.  
+
+## Contributions
+- **Exercises 1, 2, and 3** – completed by **Evi Levels, i6368803**
