@@ -12,5 +12,5 @@ The goal of this assignment was to investigate how the recovery rate affects epi
 
 ## Contributions
 - **Part 1** – completed by **Evi Levels, i6368803**
-
-## Use of Generative AI Tools
+- **Part 2** - completed by **Emma Szilagyi**
+- **Part 3** - completed by **Elias Loisel, i6359467** and **Trinh Lê**
