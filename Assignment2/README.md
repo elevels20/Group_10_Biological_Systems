@@ -1,7 +1,7 @@
  # Assignment 2
 
 ## Code
-All solutions and code for this assignment are in [CodeAssignment2.ipynb](CodeAssignment2.ipynb). 
+All solutions and code for this assignment can be found in [CodeAssignment2.ipynb](CodeAssignment2.ipynb). 
 
 To run the notebook:
 1. Open the file in Jupyter Notebook.  
