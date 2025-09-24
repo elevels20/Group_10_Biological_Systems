@@ -10,6 +10,9 @@ To run the notebook:
 ## Objective
 The goal of this assignment was to analyze the impact of cancer-causing mutations on cell regulatory networks through Boolean network modeling.
 
+## Contributions
+All group members contributed equally to this assignment. 
+
 ## Answers to the questions: 
 1. **Which mutation is most dangerous and why? Provide quantitative evidence.**
 
