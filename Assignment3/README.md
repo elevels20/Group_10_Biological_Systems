@@ -1,7 +1,7 @@
  # Assignment 2
 
 ## Code
-All code for this assignment can be found in [CodeAssignment3.ipynb](CodeAssignment3.ipynb). The start of this notebook is the BooleanModeling.ipynb notebook from the practical. After this, the actual assignment can be found. 
+All code for this assignment can be found in [CodeAssignment3.ipynb](CodeAssignment3.ipynb). The start of this notebook is the completed BooleanModeling.ipynb notebook from the practical. After this (in the same file), the actual assignment can be found. 
 
 To run the notebook:
 1. Open the file in Jupyter Notebook.  
