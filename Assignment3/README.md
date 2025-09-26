@@ -15,6 +15,11 @@ All group members contributed equally to this assignment.
 
 ## Answers to the questions: 
 1. **Which mutation is most dangerous and why? Provide quantitative evidence.**
+Answer: Destroying the function of the central tumor supressor p53 is the most dangerous thing that can happen since it leads to failure of DNA damage responce. So, the loss of p53 is very dangerous and this happens in both Mutation A and Mutation C.
+Mutation A, due to the loss of p53, eliminates a major cell cycle arrest.
+Mutation C, due to keeping MDM2 ON, we neutralize the p53 function, mimicking a p53 knockout like in Mutation A.
+By comparing the attractors of these two mutations, we can see that a high procentage of initial states converge towards having Growth=1 and Death=0 that lead to the malignant attractor because they both eliminate the cell's key defence mechanis.
+The Boolean network simulations show that the number of stable states is lower because the healthy cell arrests or apoptosis are less when removing the p53.
 
 
 2. **Explain the role of feedback loops (e.g., MYC → MDM2 → p53)**
