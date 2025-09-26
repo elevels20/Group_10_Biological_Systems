@@ -13,7 +13,7 @@ The goal of this assignment was to analyze the impact of cancer-causing mutation
 ## Contributions
 All group members contributed equally to this assignment. 
 
-## Answers to the questions: 
+## Answers to the questions
 1. **Which mutation is most dangerous and why? Provide quantitative evidence.** <br>
 Answer: Destroying the function of the central tumor supressor p53 is the most dangerous thing that can happen since it leads to failure of DNA damage responce. So, the loss of p53 is very dangerous and this happens in both Mutation A and Mutation C. <br>
 Mutation A, due to the loss of p53, eliminates a major cell cycle arrest. <br>
