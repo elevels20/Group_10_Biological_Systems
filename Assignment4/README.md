@@ -39,11 +39,10 @@ After four hours, the pathogen is significantly bigger and the cells underneath 
 
 2. **Describe in your own words what the code in this section does (CellHouseKeeping)**
 
-In the CellHouseKeeping we usualluy keep track of the cell behavior. For example, the cell's growth rate and when it grows. Or the cell's differentuiation like when the cell changes its type and what are the conditions of different cell types.
+In the CellHouseKeeping we usualluy keep track of the cell behavior. For example, the cell's growth rate and when it grows. Or the cell's differentiation like when the cell changes its type and what are the conditions of different cell types.
 
-In our case, if our cell is of type 2, we enlarge the infected area. This shows how much it expands in the tissue.
-Each cell has access to a toxin concentration and when it exceeds that limit it means it will be captured by the infection since the chemical weakens the area and lets the oathogen to get through.
-
+In our case, if the cell is of type 2 (so a pathogenic fungi), we enlarge the target area. This shows how much it expands in the tissue.
+Each cell also monitors a toxin concentration. If the pathogen chemical reaches a high level (a certain threshold), the cell walls will be weakened, which allows the pathogen to get through. On the other hand, when the chemical concentration is low (below the threshold), the cell walls remain stiff.
 
 3. **Cell to cell transport and cell dynamics. Compare the equations to the sketch of the network. What information is missing?**
 ![Sketch of network](Assignment4_exercise3.png)
