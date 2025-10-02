@@ -1,8 +1,6 @@
  # Assignment 4
 
-To run the notebook:
-1. Open the file in Jupyter Notebook.  
-2. Run all cells in order, starting from the top.
+In this file, all questions from the assignment are answered.
 
 ## Objective
 
@@ -48,7 +46,7 @@ Each cell has access to a toxin concentration and when it exceeds that limit it 
 
 
 3. **Cell to cell transport and cell dynamics. Compare the equations to the sketch of the network. What information is missing?**
-
+![Sketch of network](Assignment4_exercise3)
 
 4. **Adjust the diffusion coefficient for the pathogen’s chemical (decrease by a factor of 10, then increase by a factor of 10). Document the simulations and describe in your own words what changes.**
 
