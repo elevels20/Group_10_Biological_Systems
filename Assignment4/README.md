@@ -39,7 +39,7 @@ After four hours, the pathogen is significantly bigger and the cells underneath 
 
 2. **Describe in your own words what the code in this section does (CellHouseKeeping)**
 
-In the CellHouseKeeping we usualluy keep track of the cell behavior. For example, the cell's growth rate and when it grows. Or the cell's differentiation like when the cell changes its type and what are the conditions of different cell types.
+In the CellHouseKeeping we usually keep track of the cell behavior. For example, the cell's growth rate and when it grows. Or the cell's differentiation like when the cell changes its type and what are the conditions of different cell types.
 
 In our case, if the cell is of type 2 (so, a pathogenic fungi), we enlarge the target area. This shows how much it expands in the tissue.
 Each cell also monitors a toxin concentration (which is secreted by the pathogen). If the pathogen chemical reaches a high level (a certain threshold), the cell walls will be weakened and the cell wall stability will be reduced, which allows the pathogen to get through. On the other hand, when the chemical concentration is low (below the threshold), the cell walls remain stiff and the pathogen has a harder time getting through.
