@@ -3,7 +3,7 @@
 In this file, all questions from the assignment are answered.
 
 ## Objective
-
+The objective of this assignment is to understand and analyze a simulation of a pathogen infection in a plant tissue.
 
 ## Contributions
 All group members contributed equally to this assignment. 
@@ -42,7 +42,7 @@ After four hours, the pathogen is significantly bigger and the cells underneath 
 In the CellHouseKeeping we usualluy keep track of the cell behavior. For example, the cell's growth rate and when it grows. Or the cell's differentiation like when the cell changes its type and what are the conditions of different cell types.
 
 In our case, if the cell is of type 2 (so a pathogenic fungi), we enlarge the target area. This shows how much it expands in the tissue.
-Each cell also monitors a toxin concentration. If the pathogen chemical reaches a high level (a certain threshold), the cell walls will be weakened, which allows the pathogen to get through. On the other hand, when the chemical concentration is low (below the threshold), the cell walls remain stiff.
+Each cell also monitors a toxin concentration (which is secreted by the pathogen). If the pathogen chemical reaches a high level (a certain threshold), the cell walls will be weakened and the cell wall stability will be reduced, which allows the pathogen to get through. On the other hand, when the chemical concentration is low (below the threshold), the cell walls remain stiff and the pathogen has a harder time getting through.
 
 3. **Cell to cell transport and cell dynamics. Compare the equations to the sketch of the network. What information is missing?**
 ![Sketch of network](Assignment4_exercise3.png)
