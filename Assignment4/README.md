@@ -14,19 +14,19 @@ All group members contributed equally to this assignment.
 1. **Open the model and run it – as it is – for 4h. What is happening? What do you observe?**
 
 a. initial state
-![Initial state](screenshots/initial_0h.png)
+![Initial state](screenshots_simulation/initial_0h.png)
 
 b. after one hour
-![State after one hour](screenshots/after_1h.png)
+![State after one hour](screenshots_simulation/after_1h.png)
 
 c. after two hours
-![State after two hours](screenshots/after_2h.png)
+![State after two hours](screenshots_simulation/after_2h.png)
 
 d. after three hours
-![State after three hours](screenshots/after_3h.png)
+![State after three hours](screenshots_simulation/after_3h.png)
 
 e. after four hours
-![State after four hours](screenshots/final_4h.png)
+![State after four hours](screenshots_simulation/final_4h.png)
 
 
 We have a pathogen infection model where the pathogen is represented in red and produces a chemical that weakens the plant cell wall represented in green. We can observe over the course of 4 hours what happens to the plant.
