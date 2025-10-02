@@ -46,7 +46,7 @@ Each cell has access to a toxin concentration and when it exceeds that limit it 
 
 
 3. **Cell to cell transport and cell dynamics. Compare the equations to the sketch of the network. What information is missing?**
-![Sketch of network](Assignment4_exercise3)
+![Sketch of network](Assignment4_exercise3.png)
 
 4. **Adjust the diffusion coefficient for the pathogen’s chemical (decrease by a factor of 10, then increase by a factor of 10). Document the simulations and describe in your own words what changes.**
 
