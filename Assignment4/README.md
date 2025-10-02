@@ -49,5 +49,51 @@ Each cell also monitors a toxin concentration (which is secreted by the pathogen
 
 4. **Adjust the diffusion coefficient for the pathogen’s chemical (decrease by a factor of 10, then increase by a factor of 10). Document the simulations and describe in your own words what changes.**
 
+### Case 1: Decrease diffusion coefficient by a factor of 10 (D = 0.000001)
+
+Here are the simulation results when the diffusion coefficient for the pathogen’s chemical was decreased by a factor of 10, compared to the baseline case (D = 0.00001):
+
+a. after one hour  
+![1h](task4_decrease_by_a_factor_of_10/decrease_1h.PNG)  
+Only the immediate neighboring cells around the pathogen begin to show weakening. The effect remains very localized.  
+
+b. after two hours  
+![2h](task4_decrease_by_a_factor_of_10/decrease_2h.PNG)  
+The brown weakened zone stays narrow, and spread into deeper tissue is minimal.  
+
+c. after three hours  
+![3h](task4_decrease_by_a_factor_of_10/decrease_3h.PNG)  
+Infection remains mostly confined to a small region near the pathogen, with little progression compared to the baseline.  
+
+d. after four hours  
+![4h](task4_decrease_by_a_factor_of_10/decrease_4h.PNG)  
+The infection is still limited to the immediate neighborhood of the pathogen. Most of the tissue remains unaffected.  
+
+Sumary: When the diffusion coefficient of the pathogen’s chemical is decreased by a factor of 10, the spread of infection slows down significantly. The weakening effect on the neighboring plant cells remains much more localized around the initial infected area. Compared to the original simulation, where the brown zone expanded widely, the chemical now diffuses only to immediate neighbors, limiting the pathogen’s reach and reducing the overall extent of infection.
+
+
+### Case 2: Increase diffusion coefficient by a factor of 10 (D = 0.0001)
+
+Here are the simulation results when the diffusion coefficient for the pathogen’s chemical was increased by a factor of 10, compared to the baseline case (D = 0.00001):
+
+a. after one hour  
+![1h](task4_increase_by_a_factor_of_10/increase_1h.PNG)  
+The pathogen’s chemical spreads quickly into surrounding cells, with early signs of widespread weakening.  
+
+b. after two hours  
+![2h](task4_increase_by_a_factor_of_10/increase_2h.PNG)  
+The brown weakened zone expands rapidly, already reaching far from the original infection site.  
+
+c. after three hours  
+![3h](task4_increase_by_a_factor_of_10/increase_3h.PNG)  
+Most of the surrounding tissue shows signs of collapse. The pathogen advances much faster than in the baseline case.  
+
+d. after four hours  
+![4h](task4_increase_by_a_factor_of_10/increase_4h.PNG)  
+Nearly the entire section of tissue is affected. Very few healthy (green) cells remain intact.  
+
+Sumary: When the diffusion coefficient was increased tenfold, the infection spread significantly faster compared to the original simulation. The pathogen’s chemical diffused more quickly into distant cells, leading to a much larger zone of weakened tissue. While in the original case the infection zone remained moderate, with higher diffusion nearly the entire tissue became affected by 4h. This demonstrates that a higher diffusion coefficient allows the pathogen to overcome spatial barriers more quickly, resulting in rapid and extensive infection.
+
+
 
 5. **Let’s suppose the plant has developed a defense mechanism that detects the chemical and triggers a signal for uninfected plant cells to strengthen their cell walls. How could this be implemented in the model?**
