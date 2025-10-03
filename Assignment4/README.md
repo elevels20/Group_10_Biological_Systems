@@ -137,7 +137,7 @@ for each cell:
 diffuse(C, D_C)        # existing toxin diffusion
 diffuse(S, D_SIG)      # new defense signal diffusion
 
-# optional: reduce toxin diffusion across defended walls
+# Reduce toxin diffusion across defended walls
 for each wall between cells i and j:
   if defense_state[i] == 1 or defense_state[j] == 1:
       effective_D_C = D_C * D_C_DEF_FACTOR
