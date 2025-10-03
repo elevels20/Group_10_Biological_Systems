@@ -92,7 +92,7 @@ d. after four hours
 ![4h](task4_increase_by_a_factor_of_10/increase_4h.PNG)  
 Nearly the entire section of tissue is affected. Very few healthy (green) cells remain intact.  
 
-Sumary: When the diffusion coefficient was increased tenfold, the infection spread significantly faster compared to the original simulation. The pathogen’s chemical diffused more quickly into distant cells, leading to a much larger zone of weakened tissue. While in the original case the infection zone remained moderate, with higher diffusion nearly the entire tissue became affected by 4h. This demonstrates that a higher diffusion coefficient allows the pathogen to overcome spatial barriers more quickly, resulting in rapid and extensive infection.
+Summary: When the diffusion coefficient was increased tenfold, the infection spread significantly faster compared to the original simulation. The pathogen’s chemical diffused more quickly into distant cells, leading to a much larger zone of weakened tissue. While in the original case the infection zone remained moderate, with higher diffusion nearly the entire tissue became affected by 4h. This demonstrates that a higher diffusion coefficient allows the pathogen to overcome spatial barriers more quickly, resulting in rapid and extensive infection.
 
 
 
