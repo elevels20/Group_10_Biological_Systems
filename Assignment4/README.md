@@ -97,3 +97,82 @@ Sumary: When the diffusion coefficient was increased tenfold, the infection spre
 
 
 5. **Let’s suppose the plant has developed a defense mechanism that detects the chemical and triggers a signal for uninfected plant cells to strengthen their cell walls. How could this be implemented in the model?**
+
+**Idea:**  
+We extend the model by introducing a plant defense signal `S`. When uninfected plant cells detect a sufficiently high concentration of the pathogen toxin `C`, they start producing `S`. This signal diffuses to nearby cells and temporarily strengthens their walls by increasing wall stability and reducing yielding. The defense has a threshold so that it is only triggered under strong infection pressure, decays over time so it does not stay active forever, and includes a cap to prevent unrealistic infinite stiffening. Optionally, defended cells may also break down `C` more quickly or reduce its diffusion across their walls, further slowing the infection.
+
+---
+
+### New parameters
+| Name | Meaning | Example |
+|------|---------|---------|
+| `C_DETECT` | Toxin level that triggers defense signal production | 0.15 |
+| `K_SIG_PROD` | Production rate of signal `S` | 0.02 |
+| `D_SIG` | Diffusion coefficient of `S` | 0.02 |
+| `DECAY_SIG` | Decay rate of `S` | 0.01 |
+| `S_ON`, `S_OFF` | Thresholds for defense activation ON/OFF | 0.05 / 0.03 |
+| `STIFFEN_FACTOR` | Multiplier for wall stability when defended | 2.0 |
+| `YIELDING_FACTOR` | Multiplier for yielding (↓ = tougher) | 0.5 |
+| `MAX_STABILITY` | Cap on wall stability | 2.5 |
+| *(opt)* `C_DEGRADATION_DEF` | Extra breakdown of `C` inside defended cells | 0.01 |
+| *(opt)* `D_C_DEF_FACTOR` | Factor to reduce `C` diffusion through defended walls | 0.7 |
+
+---
+
+### New per-cell state
+- `S` (defense signal concentration, new chemical)  
+- `defense_state ∈ {0,1}` (flag for defense ON/OFF)  
+- *(existing)* `C` (toxin concentration), `cell_type`, `wall_stability`, `yielding_threshold`
+
+---
+
+### Pseudo-code (VirtualLeaf-style)
+
+**0. Initialization**
+```pseudo
+for each cell:
+  S[cell] ← 0
+  defense_state[cell] ← 0
+
+**1. Transport**
+```pseudo
+diffuse(C, D_C)        # existing toxin diffusion
+diffuse(S, D_SIG)      # new defense signal diffusion
+
+# optional: reduce toxin diffusion across defended walls
+for each wall between cells i and j:
+  if defense_state[i] == 1 or defense_state[j] == 1:
+      effective_D_C = D_C * D_C_DEF_FACTOR
+  else:
+      effective_D_C = D_C
+
+**2. Production & decay**
+```pseudo
+for each cell:
+  if C[cell] ≥ C_DETECT:
+      S[cell] += K_SIG_PROD * dt
+  S[cell] -= DECAY_SIG * S[cell] * dt
+  S[cell] = max(S[cell], 0)
+
+**3. CellHouseKeeping**
+```pseudo
+for each plant cell:
+  # toggle defense state using hysteresis thresholds
+  if defense_state == 0 and S ≥ S_ON: defense_state = 1
+  if defense_state == 1 and S ≤ S_OFF: defense_state = 0
+
+  # apply defense effects
+  if defense_state == 1:
+      wall_stability = min(base_wall_stability * STIFFEN_FACTOR, MAX_STABILITY)
+      yielding_threshold = base_yielding * YIELDING_FACTOR
+      C[cell] -= C_DEGRADATION_DEF * C[cell] * dt   # optional detoxify
+  else:
+      wall_stability = base_wall_stability
+      yielding_threshold = base_yielding
+
+
+**4. Pathogen growth**
+Where pathogen invasion depends on low wall stability, defended cells are harder to infect. As a result, the spread of red infected cells will slow down.
+
+###Expected effect:
+With defense enabled, the weakened zone stays narrower and pathogen spread slows. A halo of defended cells forms around the infection, containing the pathogen more effectively than in the baseline case. Compared to the original simulation without defense, fewer cells collapse, the infection front advances more slowly, and healthy growth is preserved in a larger part of the tissue.
