@@ -99,28 +99,21 @@ Summary: When the diffusion coefficient was increased tenfold, the infection spr
 5. **Let’s suppose the plant has developed a defense mechanism that detects the chemical and triggers a signal for uninfected plant cells to strengthen their cell walls. How could this be implemented in the model?**
 
 **Idea:**  
-We extend the model by introducing a plant defense signal `S`. When uninfected plant cells detect a sufficiently high concentration of the pathogen toxin `C`, they start producing `S`. This signal diffuses to nearby cells and temporarily strengthens their walls by increasing wall stability and reducing yielding. The defense has a threshold so that it is only triggered under strong infection pressure, decays over time so it does not stay active forever, and includes a cap to prevent unrealistic infinite stiffening. Optionally, defended cells may also break down `C` more quickly or reduce its diffusion across their walls, further slowing the infection.
+We extend the model by introducing a plant defense signal S. When uninfected plant cells detect a sufficiently high concentration of the pathogen toxin C, they start producing S. This signal diffuses to nearby cells and temporarily strengthens their walls by increasing wall stability and reducing yielding. The defense has a threshold so that it is only triggered under strong infection pressure, decays over time so it does not stay active forever, and includes a cap to prevent unrealistic infinite stiffening. Optionally, defended cells may also break down C more quickly or reduce its diffusion across their walls, further slowing the infection.
 
 
 ### New parameters
-| Name | Meaning | Example |
-|------|---------|---------|
-| `C_DETECT` | Toxin level that triggers defense signal production | 0.15 |
-| `K_SIG_PROD` | Production rate of signal `S` | 0.02 |
-| `D_SIG` | Diffusion coefficient of `S` | 0.02 |
-| `DECAY_SIG` | Decay rate of `S` | 0.01 |
-| `S_ON`, `S_OFF` | Thresholds for defense activation ON/OFF | 0.05 / 0.03 |
-| `STIFFEN_FACTOR` | Multiplier for wall stability when defended | 2.0 |
-| `YIELDING_FACTOR` | Multiplier for yielding (↓ = tougher) | 0.5 |
-| `MAX_STABILITY` | Cap on wall stability | 2.5 |
-| `C_DEGRADATION_DEF` | Extra breakdown of `C` inside defended cells | 0.01 |
-| `D_C_DEF_FACTOR` | Factor to reduce `C` diffusion through defended walls | 0.7 |
+The parameter C_DETECT defines the toxin concentration threshold that triggers production of the defense signal S is set to 0.15. The K_SIG_PROD parameter specifies the production rate of the defense signal S can be set to 0.02, while D_SIG represents its diffusion coefficient can be 0.02. The defense signal also decays over time, controlled by DECAY_SIG can have a value of 0.01.
+
+Defense activation is further regulated by hysteresis thresholds: S_ON at 0.05 and S_OFF at 0.03. When active, the defense strengthens plant cell walls through STIFFEN_FACTOR using a multiplier of 2.0 and makes them tougher by reducing yielding via YIELDING_FACTOR of 0.5. To prevent unrealistic growth, wall stability is capped by MAX_STABILITY of 2.5.
+
+Also defended cells provide extra resistance to the pathogen’s toxin. They accelerate its breakdown with C_DEGRADATION_DEF of 0.01 and reduce its diffusion across walls using D_C_DEF_FACTOR, which lowers permeability to 70% of normal.
 
 
 ### New per-cell state
-- `S` (defense signal concentration, new chemical)  
-- `defense_state ∈ {0,1}` (flag for defense ON/OFF)  
-- *(existing)* `C` (toxin concentration), `cell_type`, `wall_stability`, `yielding_threshold`
+- S: defense signal concentration, new chemical  
+- defense_state ∈ {0,1}: flag for defense ON/OFF  
+- C (toxin concentration), cell_type, wall_stability, yielding_threshold
 
 
 ### Pseudo-code 
