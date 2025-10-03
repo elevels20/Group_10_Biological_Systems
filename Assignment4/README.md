@@ -113,8 +113,8 @@ We extend the model by introducing a plant defense signal `S`. When uninfected p
 | `STIFFEN_FACTOR` | Multiplier for wall stability when defended | 2.0 |
 | `YIELDING_FACTOR` | Multiplier for yielding (↓ = tougher) | 0.5 |
 | `MAX_STABILITY` | Cap on wall stability | 2.5 |
-| *(opt)* `C_DEGRADATION_DEF` | Extra breakdown of `C` inside defended cells | 0.01 |
-| *(opt)* `D_C_DEF_FACTOR` | Factor to reduce `C` diffusion through defended walls | 0.7 |
+| `C_DEGRADATION_DEF` | Extra breakdown of `C` inside defended cells | 0.01 |
+| `D_C_DEF_FACTOR` | Factor to reduce `C` diffusion through defended walls | 0.7 |
 
 
 ### New per-cell state
@@ -172,9 +172,8 @@ for each plant cell:
 
 ```
 **4. Pathogen growth**
-```pseudo
 Where pathogen invasion depends on low wall stability, defended cells are harder to infect. As a result, the spread of red infected cells will slow down.
-```
+
 
 ### Expected effect:
 With defense enabled, the weakened zone stays narrower and pathogen spread slows. A halo of defended cells forms around the infection, containing the pathogen more effectively than in the baseline case. Compared to the original simulation without defense, fewer cells collapse, the infection front advances more slowly, and healthy growth is preserved in a larger part of the tissue.
