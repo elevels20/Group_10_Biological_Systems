@@ -171,7 +171,7 @@ for each plant cell:
       yielding_threshold = base_yielding
 
 ```
-**4. Pathogen growth**
+**4. Pathogen growth**:
 Where pathogen invasion depends on low wall stability, defended cells are harder to infect. As a result, the spread of red infected cells will slow down.
 
 
