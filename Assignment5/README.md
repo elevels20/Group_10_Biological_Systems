@@ -38,7 +38,8 @@ Some of the visual information processing areas for the monkey are:
 - **V6Adl**
 - **V6Adm**
 
-However, there is no information in the interactive viewer of Siibra to be found on these regions. 
+However, there is no information in the interactive viewer of Siibra to be found on these regions. <br>
+
 **Marmoset brain:** <br>
 Some of the visual information processing regions for the marmoset are: 
 - **primary visual cortex**
