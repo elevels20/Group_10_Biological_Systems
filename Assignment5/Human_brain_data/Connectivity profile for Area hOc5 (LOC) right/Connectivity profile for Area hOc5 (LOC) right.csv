@@ -1,0 +1,335 @@
+Name,Connection Strength,Log10
+"Temporal-to-Parietal (GapMap) right",3515.75,3.5460179854345437
+"Area hOc4la (LOC) right",557.865,2.7465291149796753
+"Area hOc5 (LOC) right",279.945,2.447072715118013
+"Area PGp (IPL) right",259.84,2.4147060075610813
+"Area FG4 (FusG) right",134.815,2.1297382160480134
+"Area FG2 (FusG) right",74.475,1.8720105118870811
+"Area hOc4lp (LOC) right",64,1.806179973983887
+"Area hIP4 (IPS) right",55.68,1.7456992266025058
+"Area hIP7 (IPS) right",53.895,1.7315484762603308
+"Area STS2 (STS) right",44.5,1.6483600109809315
+"Rt (Thalamus, reticular Nucleus) right",34.495,1.5377561492826133
+"Area hPO1 (POS) right",32.51,1.5120169694961267
+"Area STS1 (STS) right",30.29,1.4812992733328558
+"Area OTS1 (OTS) right",24.99,1.39776625612645
+"Area PGa (IPL) right",23.32,1.3677285460869766
+"Area hOc4d (Cuneus) right",21.325,1.3288890398395605
+"Area Te 3 (STG) right",20.99,1.3220124385824004
+"Area 7P (SPL) right",19.345,1.2865687340572638
+"Area hIP8 (IPS) right",17.565,1.2446481541280443
+"Area 7A (SPL) right",17.485,1.2426656366452635
+"Area FG3 (FusG) right",16.785,1.2249213455840313
+"Area Id1 (Insula) right",16.43,1.2156375634350618
+"Area 8v1 (MFG) right",13.02,1.1146109842321732
+"Frontal-to-Occipital (GapMap) right",12.12,1.0835026198302673
+"Area hOc4v (LingG) right",12.02,1.0799044676667207
+"Area 6v1 (PreCG) right",11.805,1.072065991414746
+"Area Ph2 (PhG) right",11.465,1.0593740590659577
+"Area 6v2 (PreCG) right",11.41,1.0572856444182146
+"Area hIP5 (IPS) right",11.27,1.0519239160461065
+"Frontal-II (GapMap) right",11.195,1.0490240979150491
+"Area hIP6 (IPS) right",11.14,1.0468851908377101
+"Area 4a (PreCG) right",11.085,1.044735697450507
+"Area Id3 (Insula) right",10.755,1.0316104147234815
+"Area hOc2 (V2, 18) right",9.74,0.9885589568786155
+"Area hOc3d (Cuneus) right",9.15,0.9614210940664483
+"Area FG1 (FusG) right",8.42,0.9253120914996495
+"Area hOc1 (V1, 17, CalcS) right",7.495,0.8747716371842983
+"Area CoS1 (CoS) right",6.485,0.8119099804200989
+"Area PFm (IPL) right",5.995,0.7777891874348675
+"Area 6d3 (SFS) right",5.725,0.7577754910119255
+"Area 7PC (SPL) right",5.545,0.7439015504851789
+"Area hIP3 (IPS) right",5.37,0.7299742856995556
+"Area TI (STG) right",5.355,0.7287594751678744
+"Area 6v3 (PreCG) right",5.32,0.7259116322950482
+"Frontal-to-Occipital (GapMap) left",5.14,0.7109631189952758
+"Area hOc3v (LingG) right",5.02,0.7007037171450193
+"Area 45 (IFG) right",4.915,0.6915235221681544
+"Area 2 (PostCS) right",4.81,0.6821450763738317
+"Area Ph1 (PhG) right",4.435,0.6468936241677452
+"Area TeI (STG) right",4.43,0.6464037262230695
+"Area 1 (PostCG) right",4.395,0.6429588794097907
+"FuP (Ventral Striatum, Fundus of Putamen) right",4.39,0.6424645202421213
+"Area MFG5 (MFG, IFG) right",4.36,0.6394864892685861
+"Area FG5 (FusG) right",4.29,0.6324572921847242
+"Frontal-to-Temporal-II (GapMap) right",4.205,0.623766000133931
+"CA1 (Hippocampus) right",4.105,0.6133131614554597
+"Area MFG4 (MFG) right",3.9,0.5910646070264992
+"Area Fp1 (FPole) right",3.51,0.5453071164658241
+"CA2 (Hippocampus) right",3.335,0.5230958382525678
+"Area 44 (IFG) right",3.32,0.5211380837040362
+"Area 6d2 (PreCG) right",3.27,0.5145477526602861
+"Area Id10 (Insula) right",3.095,0.4906606533561368
+"Area PF (IPL) right",2.955,0.4705574852172742
+"Frontal-I.1 (GapMap) right",2.785,0.44482519950974775
+"Temporal-to-Parietal (GapMap) left",2.765,0.4416951356407171
+"Area 6r1 (PreCG) right",2.49,0.3961993470957364
+"Area 4p (PreCG) right",2.485,0.3953263930693509
+"Area 3b (PostCG) right",2.46,0.39093510710337914
+"Area Te 2.2 (STG) right",2.455,0.3900514964589873
+"Area 7A (SPL) left",2.365,0.3738311450738304
+"Area Fo3 (OFC) right",2.365,0.3738311450738304
+"Area hOc1 (V1, 17, CalcS) left",2.34,0.3692158574101428
+"Area 8d1 (SFG) right",2.23,0.34830486304816066
+"Subc (Hippocampus, Subicular complex) right",2.115,0.3253103717110612
+"Area hPO1 (POS) left",2.095,0.32118402730231416
+"Area MFG2 (MFG) right",1.915,0.28216877830464154
+"Area hOc3d (Cuneus) left",1.885,0.27531135454181166
+"Frontal-to-Temporal-I (GapMap) right",1.885,0.27531135454181166
+"Area 6d1 (PreCG) right",1.87,0.27184160653649897
+"Area PFt (IPL) right",1.825,0.2612628687924935
+"Area 3a (PostCG) right",1.8,0.25527250510330607
+"Area 8d2 (SFG) right",1.78,0.250420002308894
+"Area TPJ (STG, SMG) right",1.7,0.2304489213782739
+"Rt (Thalamus, reticular Nucleus) left",1.65,0.21748394421390627
+"Area 5L (SPL) right",1.575,0.19728055812561932
+"Area IFS1 (IFS) right",1.525,0.1832698436828046
+"Area 7P (SPL) left",1.475,0.16879202031418183
+"Area IFS4 (IFS) right",1.475,0.16879202031418183
+"Area Ig1 (Insula) right",1.355,0.13193929521042452
+"CGL (Metathalamus) right",1.29,0.11058971029924898
+"Area 6d1 (PreCG) left",1.265,0.10209052551183669
+"Area 6d2 (PreCG) left",1.205,0.08098704691088722
+"Area Te 2.1 (STG) right",1.175,0.07003786660775509
+"Area Te 1.2 (HESCHL) right",1.16,0.06445798922691845
+"Area Id6 (Insula) right",1.11,0.045322978786657475
+"Area Id9 (Insula) right",1.1,0.04139268515822508
+"Astr (Amygdala) right",1.07,0.029383777685209667
+"Area SFG4 (SFG) right",1.045,0.01911629044707278
+"Area SFG2 (SFG) right",1.04,0.01703333929878037
+"Area MFG1 (MFG) right",1.025,0.010723865391773066
+"Area Op9 (Frontal Operculum) right",0.95,-0.022276394711152253
+"Area hIP8 (IPS) left",0.895,-0.04817696468408802
+"Area 8v2 (MFG) right",0.855,-0.06803388527182737
+"Area Fo6 (OFC) right",0.85,-0.07058107428570728
+"Area Id5 (Insula) right",0.805,-0.09420411963213146
+"Area PGp (IPL) left",0.775,-0.1106982974936897
+"Area hOc4lp (LOC) left",0.76,-0.11918640771920865
+"Area hOc2 (V2, 18) left",0.735,-0.1337126609158051
+"Area Fo1 (OFC) right",0.735,-0.1337126609158051
+"Area Te 1.1 (HESCHL) right",0.72,-0.14266750356873156
+"Area Fo7 (OFC) right",0.715,-0.1456939581989194
+"Area SFS2 (SFS) right",0.69,-0.16115090926274472
+"VPi (Thalamus, ventroposterior inferior Nucleus) right",0.675,-0.17069622716897506
+"Area Ia1 (Insula) right",0.665,-0.17717835469689538
+"Area IFS3 (IFS) right",0.66,-0.1804560644581313
+"Area Op4 (POperc) right",0.655,-0.18375870000821692
+"PUl (Thalamus, lateral pulvinar) right",0.64,-0.1938200260161128
+"Area Te 1.0 (HESCHL) right",0.63,-0.2006594505464183
+"Area Ig2 (Insula) right",0.565,-0.2479515521805615
+"Area IFJ1 (IFS, PreCS) right",0.545,-0.2636034977233575
+"Area 6v1 (PreCG) left",0.54,-0.26760624017703144
+"Area 6ma (preSMA, mesial SFG) left",0.505,-0.2967086218813386
+"Area hOc4la (LOC) left",0.5,-0.3010299956639812
+"Area hOc4d (Cuneus) left",0.5,-0.3010299956639812
+"Area hOc3v (LingG) left",0.495,-0.3053948010664313
+"Area Fo4 (OFC) right",0.495,-0.3053948010664313
+"Area hIP1 (IPS) right",0.495,-0.3053948010664313
+"Area Ph3 (PhG) right",0.485,-0.3142582613977364
+"Area SFG3 (SFG) right",0.485,-0.3142582613977364
+"Area IFS2 (IFS) right",0.485,-0.3142582613977364
+"Area Ia2 (Insula) right",0.465,-0.33254704711004607
+"Area Op8 (Frontal Operculum) right",0.46,-0.3372421683184259
+"Area IFJ2 (IFS, PreCS) right",0.46,-0.3372421683184259
+"Area FG2 (FusG) left",0.455,-0.34198860334288755
+"Area 6ma (preSMA, mesial SFG) right",0.45,-0.3467874862246563
+"Area hIP5 (IPS) left",0.445,-0.3516399890190684
+"Area 8d1 (SFG) left",0.445,-0.3516399890190684
+"TrS (Hippocampus, Transsubiculum) right",0.44,-0.3565473235138126
+"Area Ia3 (Insula) right",0.435,-0.3615107430453627
+"Area 5M (SPL) right",0.425,-0.37161106994968846
+"Area Op6 (Frontal Operculum) right",0.42,-0.37675070960209955
+"Area Fp2 (FPole) right",0.42,-0.37675070960209955
+"Area FG4 (FusG) left",0.41,-0.38721614328026455
+"Area 8v1 (MFG) left",0.41,-0.38721614328026455
+"Area hIP2 (IPS) right",0.4,-0.3979400086720376
+"Area 7M (SPL) right",0.4,-0.3979400086720376
+"Area SFS1 (SFS) right",0.39,-0.4089353929735008
+"Area PFcm (IPL) right",0.375,-0.42596873227228116
+"Area 5L (SPL) left",0.365,-0.4377071355435253
+"Area hOc4v (LingG) left",0.365,-0.4377071355435253
+"LP (Thalamus, lateral posterior Nucleus) right",0.365,-0.4377071355435253
+"CM (Amygdala) right",0.36,-0.44369749923271273
+"Area 6d3 (SFS) left",0.325,-0.4881166390211256
+"Area Id8 (Insula) right",0.325,-0.4881166390211256
+"VPL (Thalamus, ventral posterior lateral Nucleus) right",0.325,-0.4881166390211256
+"Frontal-to-Temporal-II (GapMap) left",0.31,-0.5086383061657274
+"Area 3b (PostCG) left",0.305,-0.5157001606532142
+"Frontal-I.2 (GapMap) left",0.305,-0.5157001606532142
+"IF (Amygdala) right",0.295,-0.530177984021837
+"Area STS2 (STS) left",0.29,-0.5376020021010439
+"Area hIP6 (IPS) left",0.29,-0.5376020021010439
+"Area 7M (SPL) left",0.28,-0.5528419686577808
+"Area Id3 (Insula) left",0.26,-0.585026652029182
+"VIM (Thalamus, ventral intermediate Nucleus) right",0.26,-0.585026652029182
+"Area 6v2 (PreCG) left",0.255,-0.5934598195660448
+"VP (Ventral Pallidum) right",0.245,-0.6108339156354675
+"Area Id1 (Insula) left",0.24,-0.619788758288394
+"Area FG3 (FusG) left",0.24,-0.619788758288394
+"Area 6mp (SMA, mesial SFG) left",0.23,-0.638272163982407
+"Area PFm (IPL) left",0.225,-0.6478174818886375
+"LP (Thalamus, lateral posterior Nucleus) left",0.225,-0.6478174818886375
+"Area hIP4 (IPS) left",0.22,-0.6575773191777937
+"Area hIP7 (IPS) left",0.215,-0.6675615400843947
+"Frontal-I.2 (GapMap) right",0.215,-0.6675615400843947
+"Area 5M (SPL) left",0.205,-0.6882461389442457
+"Area Fo2 (OFC) right",0.205,-0.6882461389442457
+"Area 6v3 (PreCG) left",0.2,-0.6989700043360187
+"Area 33 (ACC) right",0.2,-0.6989700043360187
+"Area Fo5 (OFC) right",0.195,-0.7099653886374819
+"CA3 (Hippocampus) right",0.195,-0.7099653886374819
+"Area 1 (PostCG) left",0.19,-0.721246399047171
+"Area 44 (IFG) left",0.19,-0.721246399047171
+"PUl (Thalamus, lateral pulvinar) left",0.185,-0.7328282715969862
+"Area Te 3 (STG) left",0.18,-0.744727494896694
+"CGL (Metathalamus) left",0.175,-0.7569619513137056
+"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",0.175,-0.7569619513137056
+"Area Id4 (Insula) right",0.17,-0.769551078621726
+"Area PFop (IPL) right",0.17,-0.769551078621726
+"Area Id7 (Insula) right",0.16,-0.7958800173440752
+"Area 4a (PreCG) left",0.155,-0.8096683018297085
+"Area MFG4 (MFG) left",0.155,-0.8096683018297085
+"Area p32 (pACC) right",0.15,-0.8239087409443188
+"Area PF (IPL) left",0.125,-0.9030899869919435
+"Area SFG2 (SFG) left",0.125,-0.9030899869919435
+"Subc (Hippocampus, Subicular complex) left",0.125,-0.9030899869919435
+"PUm (Thalamus, medial pulvinar) right",0.125,-0.9030899869919435
+"Area hIP2 (IPS) left",0.12,-0.9208187539523752
+"Area hIP3 (IPS) left",0.115,-0.9393021596463883
+"VPL (Thalamus, ventral posterior lateral Nucleus) left",0.115,-0.9393021596463883
+"Area STS1 (STS) left",0.115,-0.9393021596463883
+"PUi (Thalamus, inferior pulvinar) right",0.115,-0.9393021596463883
+"Area Op1 (POperc) right",0.115,-0.9393021596463883
+"Area Op5 (Frontal Operculum) right",0.115,-0.9393021596463883
+"Area Fp1 (FPole) left",0.11,-0.958607314841775
+"Frontal-II (GapMap) left",0.105,-0.978810700930062
+"Ch 4 (Basal Forebrain) right",0.105,-0.978810700930062
+"Area Te 1.1 (HESCHL) left",0.1,-1
+"Area Ph2 (PhG) left",0.1,-1
+"Area 7PC (SPL) left",0.1,-1
+"Area Op2 (POperc) right",0.1,-1
+"Area 5Ci (SPL) right",0.1,-1
+"FuP (Ventral Striatum, Fundus of Putamen) left",0.095,-1.0222763947111522
+"VA (Thalamus, ventral anterior Nucleus (ventral)) right",0.095,-1.0222763947111522
+"Area SFG4 (SFG) left",0.09,-1.0457574905606752
+"Area 8v2 (MFG) left",0.09,-1.0457574905606752
+"Area FG1 (FusG) left",0.09,-1.0457574905606752
+"PUm (Thalamus, medial pulvinar) left",0.085,-1.0705810742857071
+"Area Te 2.2 (STG) left",0.08,-1.0969100130080565
+"Area hOc6 (POS) right",0.08,-1.0969100130080565
+"SNC (Midbrain, Substantia Nigra pars compacta) right",0.08,-1.0969100130080565
+"SNR (Midbrain, Substantia Nigra pars reticulata) right",0.08,-1.0969100130080565
+"Area hOc5 (LOC) left",0.075,-1.1249387366083
+"Area 6mp (SMA, mesial SFG) right",0.075,-1.1249387366083
+"Area Id2 (Insula) right",0.075,-1.1249387366083
+"Area Ph1 (PhG) left",0.07,-1.154901959985743
+"Area Te 2.1 (STG) left",0.07,-1.154901959985743
+"Area p32 (pACC) left",0.065,-1.1870866433571443
+"Area Ig1 (Insula) left",0.065,-1.1870866433571443
+"Area 45 (IFG) left",0.065,-1.1870866433571443
+"Area hIP1 (IPS) left",0.065,-1.1870866433571443
+"Area 2 (PostCS) left",0.065,-1.1870866433571443
+"ZI (Thalamus, zona incerta) right",0.065,-1.1870866433571443
+"Area Op7 (Frontal Operculum) right",0.065,-1.1870866433571443
+"Area PFt (IPL) left",0.06,-1.2218487496163564
+"Area Id6 (Insula) left",0.06,-1.2218487496163564
+"Area 8d2 (SFG) left",0.06,-1.2218487496163564
+"Frontal-I.1 (GapMap) left",0.06,-1.2218487496163564
+"VIM (Thalamus, ventral intermediate Nucleus) left",0.06,-1.2218487496163564
+"Area 5Ci (SPL) left",0.06,-1.2218487496163564
+"Area Op10 (Frontal Operculum) right",0.06,-1.2218487496163564
+"Area p24c (pACC) right",0.06,-1.2218487496163564
+"Area TPJ (STG, SMG) left",0.055,-1.2596373105057561
+"Area PFcm (IPL) left",0.055,-1.2596373105057561
+"Area EC (Hippocampal Region, Entorhinal Cortex) right",0.055,-1.2596373105057561
+"Area 6r1 (PreCG) left",0.05,-1.3010299956639813
+"VA (Thalamus, ventral anterior Nucleus (ventral)) left",0.05,-1.3010299956639813
+"Area SFG3 (SFG) left",0.05,-1.3010299956639813
+"Area 33 (ACC) left",0.05,-1.3010299956639813
+"Area s24 (sACC) right",0.05,-1.3010299956639813
+"Area TeI (STG) left",0.045,-1.3467874862246563
+"AcbM (Ventral Striatum, Medial Accumbens) right",0.045,-1.3467874862246563
+"Area Op3 (POperc) right",0.045,-1.3467874862246563
+"Area Ig2 (Insula) left",0.04,-1.3979400086720375
+"Area Fp2 (FPole) left",0.04,-1.3979400086720375
+"VLP (Thalamus, ventral lateral posterior Nucleus) left",0.04,-1.3979400086720375
+"Area Op8 (Frontal Operculum) left",0.04,-1.3979400086720375
+"Area 3a (PostCG) left",0.04,-1.3979400086720375
+"Area p24ab (pACC) right",0.04,-1.3979400086720375
+"STN (Subthalamus) right",0.04,-1.3979400086720375
+"Area Ig3 (Insula) right",0.04,-1.3979400086720375
+"Ch 123 (Basal Forebrain) right",0.04,-1.3979400086720375
+"Area TI (STG) left",0.035,-1.4559319556497243
+"Area PGa (IPL) left",0.035,-1.4559319556497243
+"Area MFG5 (MFG, IFG) left",0.035,-1.4559319556497243
+"Area Id10 (Insula) left",0.035,-1.4559319556497243
+"CA1 (Hippocampus) left",0.035,-1.4559319556497243
+"Area Fo1 (OFC) left",0.035,-1.4559319556497243
+"BST (Basal Forebrain, Bed Nucleus) right",0.035,-1.4559319556497243
+"LB (Amygdala) right",0.035,-1.4559319556497243
+"Area Te 1.0 (HESCHL) left",0.03,-1.5228787452803376
+"Area Op6 (Frontal Operculum) left",0.03,-1.5228787452803376
+"Area MFG2 (MFG) left",0.03,-1.5228787452803376
+"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",0.03,-1.5228787452803376
+"IF (Amygdala) left",0.03,-1.5228787452803376
+"Area Id5 (Insula) left",0.03,-1.5228787452803376
+"TuTi (Basal Forebrain, Terminal islands) right",0.03,-1.5228787452803376
+"AcbL (Ventral Striatum, Lateral Accumbens) right",0.03,-1.5228787452803376
+"PUi (Thalamus, inferior pulvinar) left",0.025,-1.6020599913279623
+"Area IFS3 (IFS) left",0.025,-1.6020599913279623
+"Area Op7 (Frontal Operculum) left",0.02,-1.6989700043360187
+"Area hOc6 (POS) left",0.02,-1.6989700043360187
+"Area Fo7 (OFC) left",0.02,-1.6989700043360187
+"Ch 4 (Basal Forebrain) left",0.02,-1.6989700043360187
+"Frontal-to-Temporal-I (GapMap) left",0.02,-1.6989700043360187
+"Area CoS1 (CoS) left",0.015,-1.8239087409443189
+"Area MFG1 (MFG) left",0.015,-1.8239087409443189
+"Area Op1 (POperc) left",0.015,-1.8239087409443189
+"Area Ph3 (PhG) left",0.015,-1.8239087409443189
+"Area 4p (PreCG) left",0.015,-1.8239087409443189
+"Area PFop (IPL) left",0.015,-1.8239087409443189
+"DG (Hippocampus) right",0.015,-1.8239087409443189
+"VLA (Thalamus, ventral lateral anterior Nucleus) right",0.015,-1.8239087409443189
+"AV (Thalamus, anteroventral Nucleus) right",0.015,-1.8239087409443189
+"Area s32 (sACC) right",0.015,-1.8239087409443189
+"Astr (Amygdala) left",0.01,-2
+"ZI (Thalamus, zona incerta) left",0.01,-2
+"Area p24ab (pACC) left",0.01,-2
+"Area FG5 (FusG) left",0.01,-2
+"Area Fo5 (OFC) left",0.01,-2
+"Area IFJ2 (IFS, PreCS) left",0.01,-2
+"Area Fo6 (OFC) left",0.01,-2
+"Area Fo3 (OFC) left",0.01,-2
+"Area Fo4 (OFC) left",0.01,-2
+"CM (Amygdala) left",0.01,-2
+"Area OTS1 (OTS) left",0.01,-2
+"Area Te 1.2 (HESCHL) left",0.01,-2
+"Ch 123 (Basal Forebrain) left",0.01,-2
+"Area Id9 (Insula) left",0.01,-2
+"Area s32 (sACC) left",0.01,-2
+"Area s24 (sACC) left",0.01,-2
+"VPi (Thalamus, ventroposterior inferior Nucleus) left",0.01,-2
+"VLP (Thalamus, ventral lateral posterior Nucleus) right",0.01,-2
+"Area Id8 (Insula) left",0.005,-2.3010299956639813
+"LD (Thalamus, lateral dorsal Nucleus) left",0.005,-2.3010299956639813
+"Area Ia3 (Insula) left",0.005,-2.3010299956639813
+"Area Id4 (Insula) left",0.005,-2.3010299956639813
+"Area IFS4 (IFS) left",0.005,-2.3010299956639813
+"Area Ia1 (Insula) left",0.005,-2.3010299956639813
+"Area 25 (sACC) left",0.005,-2.3010299956639813
+"Area Id7 (Insula) left",0.005,-2.3010299956639813
+"SNC (Midbrain, Substantia Nigra pars compacta) left",0.005,-2.3010299956639813
+"Area Ig3 (Insula) left",0.005,-2.3010299956639813
+"Area IFS1 (IFS) left",0.005,-2.3010299956639813
+"Area Op4 (POperc) left",0.005,-2.3010299956639813
+"Area Op2 (POperc) left",0.005,-2.3010299956639813
+"AcbM (Ventral Striatum, Medial Accumbens) left",0.005,-2.3010299956639813
+"Area SFS2 (SFS) left",0.005,-2.3010299956639813
+"Area Op9 (Frontal Operculum) left",0.005,-2.3010299956639813
+"VLA (Thalamus, ventral lateral anterior Nucleus) left",0.005,-2.3010299956639813
+"AV (Thalamus, anteroventral Nucleus) left",0.005,-2.3010299956639813
+"VP (Ventral Pallidum) left",0.005,-2.3010299956639813
+"Area IFJ1 (IFS, PreCS) left",0.005,-2.3010299956639813
+"Area Fo2 (OFC) left",0.005,-2.3010299956639813
+"AcbL (Ventral Striatum, Lateral Accumbens) left",0.005,-2.3010299956639813
