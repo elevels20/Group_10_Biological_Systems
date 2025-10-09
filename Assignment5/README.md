@@ -9,7 +9,7 @@ All group members contributed equally to this assignment.
 ## Answers to the questions: 
 
 ### The regions involved in processing visual information along both the ventral and dorsal pathway
-**Human brain:**
+**Human brain:** <br>
 Some of the visual information processing regions for the human brain are: 
 - **V1** 
 - **V2** 
@@ -29,7 +29,7 @@ We extracted information from the areas:
 - **Area hOc3d right (Cuneus)** 
 - **Area hOc5 (LOC) right** 
 
-**Monkey brain**
+**Monkey brain:** <br>
 Some of the visual information processing areas for the monkey are: 
 - **V3d**
 - **V3A**
@@ -39,7 +39,7 @@ Some of the visual information processing areas for the monkey are:
 - **V6Adm**
 
 However, there is no information in the interactive viewer of Siibra to be found on these regions. 
-**Marmoset brain**
+**Marmoset brain:** <br>
 Some of the visual information processing regions for the marmoset are: 
 - **primary visual cortex**
 - **visual area 2**
