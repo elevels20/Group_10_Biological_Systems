@@ -7,8 +7,9 @@ The objective of this assignment is to apply computational modelling methods to 
 ## Use of Generative AI
 We found this assignment quite difficult to do, so we used Generative AI (ChatGPT and Gemini) to help with solving the exercises. <br>
 The transcript of the Gemini conversation can be found in [Gemini_transcript](Gemini_transcript). <br>
-The transcript of the ChatGPT conversation can be found [here](https://chatgpt.com/share/68e96677-5664-8005-a417-fb3573fcfdf3).  <br>
-If the link does not work: https://chatgpt.com/share/68e96677-5664-8005-a417-fb3573fcfdf3 
+The transcript of the ChatGPT conversation can be found here: https://chatgpt.com/share/68e96677-5664-8005-a417-fb3573fcfdf3 
+
+
 ## Contributions
 All group members contributed equally to this assignment. 
 
