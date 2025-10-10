@@ -5,9 +5,9 @@ The notebook of this assignment can be found in [Assignment5.ipynb](Assignment5.
 The objective of this assignment is to apply computational modelling methods to explore how biological brain structure can inform and constrain artificial neural networks within the visual system.
 
 ## Use of Generative AI
-We found this assignment quite difficult to do, so we used generative AI (ChatGPT and Gemini) to solve the exercises. <br>
+We found this assignment quite difficult to do, so we used Generative AI (ChatGPT and Gemini) to solve the exercises. <br>
 The transcript of the Gemini conversation can be found [here](Gemini_transcript). <br>
-The transcript of the ChatGPT conversation can be found [here](https://chatgpt.com/share/68e96677-5664-8005-a417-fb3573fcfdf3)
+The transcript of the ChatGPT conversation can be found [here](https://chatgpt.com/share/68e96677-5664-8005-a417-fb3573fcfdf3).
 
 ## Contributions
 All group members contributed equally to this assignment. 
