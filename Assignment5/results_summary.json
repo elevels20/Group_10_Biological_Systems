@@ -1,0 +1,18 @@
+{
+  "rsa_ref_vs_constrained": {
+    "v1_v2": 0.9868639748892936,
+    "ventral_fc": 0.8334932738952112,
+    "dorsal_fc": 0.520237567638346
+  },
+  "fc_mean_abs_change_reference": 0.2604207415554381,
+  "fc_mean_abs_change_constrained": 0.2558285833823419,
+  "artifacts": [
+    "ref_fc_before.png",
+    "ref_fc_after.png",
+    "con_fc_before.png",
+    "con_fc_after.png",
+    "tsne_reference.png",
+    "tsne_constrained.png",
+    "empirical_fc_proxy.png"
+  ]
+}
