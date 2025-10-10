@@ -1,12 +1,15 @@
  # Assignment 5
+The notebook of this assignment can be found in [Assignment5.ipynb](Assignment5.ipynb).
 
-
-## Objective
+## Use of Generative AI
+We found this assignment quite difficult to do, so we used generative AI (ChatGPT and Gemini) to solve the exercises.
+The transcript of the Gemini conversation can be found [here]()
+The transcript of the ChatGPT conversation can be found here:
 
 ## Contributions
 All group members contributed equally to this assignment. 
 
-## Answers to the questions: 
+## Answers to the questions 1, 2 and 3: 
 
 ### The regions involved in processing visual information along both the ventral and dorsal pathway
 **Human brain:** <br>
